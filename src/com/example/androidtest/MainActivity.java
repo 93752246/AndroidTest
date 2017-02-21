@@ -4,12 +4,14 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 
 public class MainActivity extends Activity {
 
 	Button btn ;//first add
 	EditText et;//ver1.0
+	CheckBox cb;//
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
